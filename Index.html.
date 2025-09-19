@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCSeventeen</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+    }
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #03a9f4;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #03a9f4;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #03a9f4;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #03a9f4;
+      margin-bottom: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      border-top: 2px solid #03a9f4;
+      margin-top: 40px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #03a9f4;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0288d1;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MCSeventeen</h1>
+    <nav>
+      <a href="#sobre">Sobre Mim</a>
+      <a href="#musicas">Músicas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou <strong>MCSeventeen</strong>, um jovem com ambição e talento, apaixonado por música e pela cultura do hip-hop. 
+    Acredito no poder da arte para motivar e inspirar pessoas, e busco usar minhas letras para transmitir energia, força e verdade.</p>
+  </section>
+
+  <section id="musicas">
+    <h2>Músicas</h2>
+    <p>Em breve vou compartilhar aqui minhas faixas, beats e projetos musicais.</p>
+    <a href="#" class="btn">Ouvir Prévia</a>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Quer entrar em contato comigo? Use os links abaixo:</p>
+    <p>Email: <a href="mailto:contato@mcseventeen.com">contato@mcseventeen.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/mcseventeen" target="_blank">@mcseventeen</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 MCSeventeen - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
